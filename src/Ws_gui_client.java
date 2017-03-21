@@ -88,5 +88,14 @@ Ws_gui_client()
       return port.addNumbers(a, b);
     }
 
-    
+     /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) 
+    { try
+      { Ws_gui_client client = new Ws_gui_client();
+      }
+      catch (Exception ex)
+      { System.out.println("exception = " + ex);
+      }
 }
